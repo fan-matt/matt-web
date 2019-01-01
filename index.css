@@ -1,0 +1,40 @@
+.welcome-section {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.welcome-section > img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+.welcome-section > .welcome-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 30vh;
+}
+
+
+.welcome-section > .welcome-text > h1 , h2 {
+    width: 100%;
+    text-align: center;
+    color: #f7f7f7;
+    text-shadow: 2px 2px #000000;
+}
+
+
+.welcome-section > .welcome-text > h2 {
+    font-size: 8vw;     /* desktop 5.5 */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.welcome-section > .welcome-text > h1 {
+    font-size: 20vw;    /* desktop 10 */
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
