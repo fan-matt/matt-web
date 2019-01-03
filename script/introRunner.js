@@ -6,6 +6,7 @@ function run() {
     const SHOW_TIME = 1500;
 
     $(".in-out-fade").hide(0).delay(1000).fadeToggle(FADE_SPEED);
+    $(".scroll-text").hide(0);
 
     let counter = 0;
 
@@ -28,6 +29,7 @@ function run() {
                 break;
 
             default:
+                $(".scroll-text").fadeToggle(FADE_SPEED);
                 return;
         }
         counter++;
