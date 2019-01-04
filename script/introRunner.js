@@ -1,5 +1,4 @@
-$(document).ready(run);
-
+"use strict";
 
 function run() {
     const FADE_SPEED = 250;
@@ -40,3 +39,5 @@ function run() {
         setTimeout(fadeOutIn , SHOW_TIME);
     }
 }
+
+export {run};
