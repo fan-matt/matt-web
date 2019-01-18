@@ -152,9 +152,11 @@ p {
 
 
 .playlist > .playlist-img-container {
-    width: calc(100vw - 60px);
-    height: calc(100vw - 60px);
+    /* width: calc(100vw - 60px);
+    height: calc(100vw - 60px); */
     
+    width: 100%;
+    /* height: 100%; */
     overflow: hidden;
 }
 
@@ -222,4 +224,22 @@ footer > h2 {
 
 footer > #footer-last-item {
     margin: 0;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .welcome-section > .welcome-text > h2 {
+        font-size: 5.5vw;     /* desktop 5.5 */
+    }    
+
+
+    .welcome-section > .welcome-text > h1 {
+        font-size: 10vw;    /* desktop 10 */
+    }
+
+
+    .content-section {
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
 }
