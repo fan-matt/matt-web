@@ -188,7 +188,7 @@ p {
 .contact > .logos {
     display: flex;
     flex-direction: row;
-    width: calc(100vw - 60px);
+    width: 100%;
     overflow: hidden;
     margin-top: 50px;
 }
@@ -229,17 +229,37 @@ footer > #footer-last-item {
 
 @media only screen and (min-width: 600px) {
     .welcome-section > .welcome-text > h2 {
-        font-size: 5.5vw;     /* desktop 5.5 */
+        font-size: 5.5vw;
     }    
 
 
     .welcome-section > .welcome-text > h1 {
-        font-size: 10vw;    /* desktop 10 */
+        font-size: 10vw;
     }
 
 
     .content-section {
         padding-left: 20vw;
         padding-right: 20vw;
+    }
+
+
+    .playlists {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .playlists > .playlist {
+        max-width: 50%;
+        transition: .2s;
+    }
+
+
+    .playlists > .playlist:hover {
+        transform: scale(1.01);
+        box-shadow: 9px 9px #585858;
     }
 }
