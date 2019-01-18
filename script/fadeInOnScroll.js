@@ -1,6 +1,6 @@
 "use strict";
 
-const FADE_HEIGHT = 200;
+const FADE_HEIGHT = 100;
 
 function scroll(){
     $(window).scroll(function() {
