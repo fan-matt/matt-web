@@ -2,7 +2,7 @@
 
 function run() {
     const FADE_SPEED = 250;
-    const SHOW_TIME = 1500;
+    const SHOW_TIME = 1000;
 
     $(".in-out-fade").hide(0).delay(1000).fadeToggle(FADE_SPEED);
     $(".scroll-text").hide(0);
