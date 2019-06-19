@@ -1,5 +1,35 @@
 body {
+    background-color: #001933;
+}
+
+.terminal {
+    position: absolute;
+    /* display: block; */
     background-color: black;
+    padding: 10px;
+
+    height: 50vh;
+    width: 50vw;
+
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50% , -50%);
+
+    border-color: lightgray;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.terminal-header {
+    position: relative;
+    left: -11px;    /* These small amounts are minor fixes to keep the border and header continuous */
+    top: -11px;
+    width: calc(100% + 2px);
+    padding: 10px;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
 }
 
 div {
