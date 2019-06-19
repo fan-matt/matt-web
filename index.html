@@ -10,189 +10,20 @@
 
         <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="./index.css">
-        <script src="./script/jquery.js"></script>
-        <script type="module" src="./script/fadeInOnScroll.js"></script>
-        <script type="module" src="./script/introRunner.js"></script>
-        <script type="module" src="./script/imageLoader.js"></script>
-        <script type="module" src="./script/main.js"></script>
     </head>
 
     <body>
-        <section class="welcome-section">
-            <img class="asyncImage" src="./resources/img/thumbnails/title-small.jpg" data-src="./resources/img/title.JPG" alt="Welcome! Here's a picture of a lake" />
-
-            <div class="welcome-text">
-                <h2> Hello, Internet! I'm a </h2>
-                <h1 class="in-out-fade"> Student </h1>
-            </div>
-
-            <div class="scroll-text">
-                <h3> Scroll </h3>
-                <h3> &#9660; </h3>
-            </div>
-        </section>
-
-        <section class="intro-paragraph content-section fade-in">
-            <p>
-                My name is Matt, or Matthew Fan for long. I'm a first year Computer Science student at UCLA and I work to
-                learn things and solve problems. Want to learn more about me? Keep scrolling! Alternatively, you can find my
-                resume <a href="./resources/resume.pdf" target="_blank">here</a>.
-            </p>
-        </section>
-
-        <section class="what-doings content-section">
-            <h1 class="section-header fade-in"> What am I up to? </h1>
-
-            <div class="card fade-in">
-                <div class="img-container">
-                    <img class="asyncImage" src="./resources/img/thumbnails/ucla-small.jpg" data-src="./resources/img/ucla.jpg" alt="UCLA's Royce Hall">
-                </div>
-                <div class="card-text">
-                    <h2> UCLA </h2>
-                    <h3> 2018 - present </h3>
-                    <h3> Computer Science </h3>
-                    <p> 
-                        I'm currently studying Computer Science at UCLA. I'm involved with UAS@UCLA (Unmanned Aerial Systems) as an
-                        interface developer for an autonomous drone using ReactJS and Electron. UCLA is teaching me the values of 
-                        hard work, perseverance, and proactivity and I can't wait to seize my opportunities and make the most out of them!
-                    </p>
-                </div>
-            </div>
-
-            <div class="card fade-in">
-                <div class="img-container">
-                    <img class="asyncImage" src="./resources/img/thumbnails/first-small.jpg" data-src="./resources/img/first.JPG" alt="FIRST Robots">
-                </div>
-                <div class="card-text">
-                    <h2> FIRST Robotics </h2>
-                    <h3> 2013 - 2018 </h3>
-                    <h3> Head Programmer </h3>
-                    <p> 
-                        FIRST Robotics gave me the incredible opportunity to really grow as a person. Not only have I vastly improved my coding,
-                        I've also learned to work with others, to create unique and creative solutions, to teach myself, to document my progress, 
-                        and to communicate with others. FIRST has given me so much more than any list can describe and is largely responsible for 
-                        making me the person I am today.
-
-                        Want to see some of the basic vision research that I've dabbled in? Click 
-                        <a href="https://docs.google.com/document/d/1thKy7adhD0v3Cjr1Sv09zKk0VNXW2Ya7G1Crqr5qSdw/edit?usp=sharing" target="_blank"> here</a>!
-                    </p>
-                </div>
-            </div>
-
-            <div class="card fade-in">
-                <div class="img-container">
-                    <img class="asyncImage" src="./resources/img/thumbnails/chinaway-small.jpg" data-src="./resources/img/chinaway.JPG" alt="classroom">
-                </div>
-                <div class="card-text">
-                    <h2> ChinaWay </h2>
-                    <h3> Summers of 2015, 2016, 2017 </h3>
-                    <h3> Sichuan, China </h3>
-                    <h3> English Teacher </h3>
-                    <p> 
-                        ChinaWay presented me with a golden opportunity to interact with others from an entirely different background
-                        and to exchange knowledge like no other. It taught me how to be patient, how to explain things from different
-                        perspectives, and how to problem solve with limited utility. Most important of all, ChinaWay gave me the love
-                        of teaching, which I carried back to my robotics teams and hope to carry with me throughout the rest of my life.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section class="music-section content-section">
-            <h1 class="section-header fade-in"> Take a Listen </h1>
-
-            <p class="fade-in">
-                Music means the world to me. I've stopped taking lessons long ago, but you might still
-                be able to catch me playing the piano from time to time. Here are my favorite playlists
-                on heavy rotation:
-            </p>
-
-            <div class="playlists">
-                <div class="playlist card fade-in">
-                    <div class="playlist-img-container">
-                        <img class="asyncImage" src="./resources/img/thumbnails/dongfang-small.jpg" data-src="./resources/img/dongfang.JPG" alt="Chinese mountains and clouds">
-                    </div>
-                    <div class="card-text">
-                        <h2> <a href="https://open.spotify.com/user/22s2fwt3jdvbhcmcmjhccuedi/playlist/43ijOJNyNIxZuC62q58Xn7?si=MnfNVk0sRz62_CDIi7Y_-A" target="_blank"> 东方 </a> </h2>
-                        <p> 
-                            Easily my favorite playlist- filled with old Chinese tunes that my parents played
-                            during car rides, 东方 takes me back to my childhood and serves as a proud reminder
-                            of who I am. 
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="playlist card fade-in">
-                    <div class="playlist-img-container">
-                        <img src="./resources/img/oldTunes.JPG" alt="Young me">
-                    </div>
-                    <div class="card-text">
-                        <h2> <a href="https://open.spotify.com/user/22s2fwt3jdvbhcmcmjhccuedi/playlist/2oEBOn7orf3oCeBZ4U6ae7?si=FMI3r08QQlGwXAHV8XEAoA" target="blank"> Old Tunes </a> </h2>
-                        <p> 
-                            Who knew that the 70s and 80s were filled with such excellence? Join me on an
-                            adventure to discover the contemporaries to my favorite childhood songs. 
-                            It's always fun to rediscover a song that I've heard in passing.
-                        </p>
-                    </div>
-                </div>
-    
-                <div class="playlist card fade-in">
-                    <div class="playlist-img-container">
-                        <img src="./resources/img/ok.jpg" alt="White flower">
-                    </div>
-                    <div class="card-text">
-                        <h2> <a href="https://open.spotify.com/user/22s2fwt3jdvbhcmcmjhccuedi/playlist/0jLM2g1pt4xLb4S1cxkNRO?si=sGj__2C7TIma05G-LHdPJA" target="_blank"> O K </a> </h2>
-                        <p> 
-                            Bops, jams, ballads, and songs from South Korea. Some new, some
-                            old. Some powerful, some fun. Some popular, some hidden. Constantly
-                            shifting and fluctuating, this playlist is probably one of my more 
-                            flavorful ones.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="iama content-section">
-            <h1 class="section-header fade-in"> I am a </h1>
-
-            <h1 class="iama-item fade-in"> <a href="./resources/img/goToClassPlease.JPG" target="_blank"> Student </a> </h1>
-            <h1 class="iama-item fade-in"> <a href="https://github.com/FusionForScience" target="_blank"> Developer </a> </h1>
-            <h1 class="iama-item fade-in"> <a href="https://photos.app.goo.gl/4DF1hTqzeSjuXWVaA" target="_blank"> Dog Lover </a> </h1>
-            <h1 class="iama-item fade-in"> <a href="./resources/img/ohNoRobot.JPG" target="_blank"> Problem Solver </a> </h1>
-
-            <h2 class="fade-in">
-                 Made in Missouri, making an impact in Los Angeles
-            </h2>
-        </section>
-
-        <section class="contact content-section">
-            <h1 class="section-header fade-in"> Contact </h1>
-            <p class="fade-in">
-                Hey you! I bet you're a really interesting person! Want to talk or work together?
-                Find me here:
-            </p>
-            <div class="logos fade-in">
-                <a href="https://www.linkedin.com/in/matthew-fan-a3b606175/" target="_blank"> 
-                    <img src="./resources/img/linkedin.png" alt="linkedin">
-                </a>
-
-                <a href="https://github.com/fan-matt" target="_blank"> 
-                    <img src="./resources/img/github.png" alt="github">
-                </a>
-            </div>
-        </section>
-
-
-        <footer class="content-section">
-            <h2> &copy; Copyright 2019, Matthew Fan </h2>
-            <h2> Made with love and jQuery </h2>
-            <h2 id="footer-last-item"> 
-                Icons made by <a href="https://www.flaticon.com/packs/nfo@pixelbuddha.net" title="Pixel Buddha">Pixel Buddha</a> 
-                from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by 
-                <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
-                Thank you!
-            </h2>
-        </footer>
+        <div> <span class="username">me@my-pc</span>:<span class="tilde">~</span>$ ssh www@matthewfan.com </div>
+        <div> www@matthewfan.com's password: </div>
+        <br>
+        <div> Matthew Fan - Welcome to matthewfan.com! </div>
+        <br>
+        <div> &nbsp;&nbsp;* <a href="https://github.com/fan-matt" target="_blank"> Github: https://github.com/fan-matt </a> </div>
+        <div> &nbsp;&nbsp;* <a href="https://www.linkedin.com/in/matthew-fan-a3b606175/" target="_blank"> LinkedIn: https://www.linkedin.com/in/matthew-fan-a3b606175/ </a> </div>
+        <div> &nbsp;&nbsp;* <a href="mailto:fanma@ucla.edu" target="_blank"> Email: fanma@ucla.edu </a> </div>
+        <br>
+        <br>
+        <div> Last login: Tue Jun 18 19:04:42 2019 </div>
+        <div> <span class="username">www@matt-web</span>:<span class="tilde">~</span>#&nbsp; <div class="cursor"></div> </div>
     </body>
 </html>
