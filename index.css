@@ -4,7 +4,6 @@ body {
 
 .terminal {
     position: absolute;
-    /* display: block; */
     background-color: black;
     padding: 10px;
 
@@ -58,4 +57,26 @@ div {
 a {
     color: lightgray;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 1500px) {
+    .terminal {
+        height: 75vh;
+        width: 75vw;
+
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50% , -50%);
+    }
+}
+
+@media only screen and (max-width: 600px), (max-height: 600px) {
+    .terminal {
+        height: calc(100vh - 24px);
+        width: calc(100vw - 24px);
+
+        top: 0;
+        left: 0;
+        transform: translate(0 , 0);
+    }
 }
